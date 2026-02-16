@@ -1,0 +1,17 @@
+# LDAP server URI
+uri ${LDAP_URI}
+
+# LDAP base suffix
+base ${LDAP_BASE}
+
+# Bind DN and password
+binddn ${LDAP_BINDDN}
+bindpw ${LDAP_BINDPW}
+
+# User and group search bases
+base passwd ${LDAP_BASE_PASSWD}
+base group ${LDAP_BASE_GROUP}
+
+# TLS settings
+ssl ${LDAP_SSL}
+tls_reqcert ${LDAP_TLS_REQCERT}
